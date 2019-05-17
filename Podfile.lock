@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.8.2)
+  - MBProgressHUD (1.1.0)
+  - PanModal (1.2.2)
+  - ReachabilitySwift (3)
+  - SwiftyJSON (4.0.0)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MBProgressHUD
+  - PanModal
+  - ReachabilitySwift
+  - SwiftyJSON (~> 4.0.0)
+  - Toast
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - MBProgressHUD
+    - PanModal
+    - ReachabilitySwift
+    - SwiftyJSON
+    - Toast
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  PanModal: db200380a267634f746f8dea550dc3d1df017fc0
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: 2324c360bfc6f20df9b7b41644ddfb261f9924dc
+
+COCOAPODS: 1.6.1

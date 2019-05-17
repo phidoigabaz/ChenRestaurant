@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopupFilterViewController" customModule="ChenRestaurant" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="5DH-q4-hE3" id="wRo-cB-FGp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5DH-q4-hE3">
+                    <rect key="frame" x="0.0" y="100" width="375" height="567"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="qEP-Gd-zgA"/>
+                        <outlet property="delegate" destination="-1" id="Cyj-rH-pfc"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FKo-pc-Cvc">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Dxs-qE-1aG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5DH-q4-hE3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3My-n2-Axd"/>
+                <constraint firstItem="5DH-q4-hE3" firstAttribute="top" secondItem="FKo-pc-Cvc" secondAttribute="bottom" id="gYh-9w-0zs"/>
+                <constraint firstItem="5DH-q4-hE3" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="mn7-e1-JV0"/>
+                <constraint firstItem="FKo-pc-Cvc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pBP-Qq-eBJ"/>
+                <constraint firstItem="FKo-pc-Cvc" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="um0-1e-YK5"/>
+                <constraint firstItem="5DH-q4-hE3" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="vLD-sj-bAX"/>
+                <constraint firstItem="FKo-pc-Cvc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="z3u-Py-b65"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="133.59999999999999" y="154.27286356821591"/>
+        </view>
+    </objects>
+</document>
